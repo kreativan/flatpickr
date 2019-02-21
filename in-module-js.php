@@ -8,7 +8,7 @@
      */
     public function flatpickr($form_id) {
 
-        $module_folder = $this->config->urls->siteModules . "KappsForms/";
+        $module_folder = $this->config->urls->siteModules . "MY_FOLDER/";
 
         // flatpickr files
         $cssFile = $module_folder . "flatpickr/flatpickr.min.css";
@@ -16,7 +16,6 @@
 
         $this->config->styles->add($cssFile);
         $this->config->scripts->add($jsFile);
-        // $this->config->scripts->add($module_folder . "forms.js");
 
         // flatpickr lang files
         $locale = strtolower($this->user->language->title);
