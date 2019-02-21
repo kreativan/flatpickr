@@ -1,5 +1,6 @@
+<?php
 
-/**
+    /**
      *  Load and init flatpickr
      *
      *  @param form_id string form css id
